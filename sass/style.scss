@@ -6,7 +6,7 @@
 }
 
 .boite__modale {
-    background-color: aqua;
+    background-color: #edf5f3;
     position: absolute;
     width: 50vw;
     height: 50vh;
@@ -15,6 +15,9 @@
     transform: scale(0);
     opacity: 0;
     transition: transform 1s, opacity 1s;
+    border: 1px solid;
+    padding: 10px;
+     box-shadow: 5px 5px 5px #888888;
 }
 
 .boite__modale__ouvrir {
@@ -23,10 +26,11 @@
 }
 
 .boite__x {
-    width: 2rem;
-    height: 2rem;
+    background: none;
+    border: none;
     position: absolute;
     top: 10px;
     right: 10px;
     align-items: center;
+    text-decoration: double;
 }

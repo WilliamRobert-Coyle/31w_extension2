@@ -9,7 +9,7 @@
 
         elBoite__modale.appendChild(elBoite__x);
         elBoite__x.classList.add('boite__x');
-        elBoite__x.innerHTML = 'X ';
+        elBoite__x.innerHTML = 'X';
 
         elBoite__modale.classList.add('boite__modale');
         let elBody = document.querySelector('body');
