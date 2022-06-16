@@ -15,7 +15,7 @@
         let elBody = document.querySelector('body');
         elBody.appendChild(elBoite__modale);
     }
-    
+
     creerBoiteModale();
 
     // document.querySelector('.boite__modale');
